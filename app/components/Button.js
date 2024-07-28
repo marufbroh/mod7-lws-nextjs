@@ -9,7 +9,7 @@ const Button = ({ children }) => {
   };
   return (
     <button
-      onClick={handleClick}
+      onClick={() => handleClick()}
       className="mt-6 bg-blue-500 px-3 py-2 rounded text-gray-50"
     >
       {children}

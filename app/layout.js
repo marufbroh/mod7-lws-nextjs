@@ -26,6 +26,13 @@ export default function RootLayout({ children }) {
                                 Settings
                             </CustomLink>
                         </li>
+                        <li>
+                            <CustomLink
+                                path="/heavy"
+                            >
+                                Heavy
+                            </CustomLink>
+                        </li>
                     </ul>
                 </nav>
                 {children}
